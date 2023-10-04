@@ -1,5 +1,3 @@
-# ratemyresume
-
 # RateMyResume
 
 RateMyResume is a web application designed to provide AI-generated feedback on resumes. Users can upload their resumes, and optionally provide a job description, to receive tailored feedback and suggestions for improvement.
@@ -15,13 +13,12 @@ It is live! Hosted on the streamlit community cloud @ https://ratemyresume.strea
 ## Installation
 
 1. Clone the repository:
-
+  git clone https://github.com/samarth6341/ratemyresume.git
 
 2. Navigate to the repository directory:
-
-
+   cd ratemyresume
 3. Install the required Python libraries:
-
+  pip install -r requirements.txt
 
 ## Usage
 
@@ -37,14 +34,9 @@ It is live! Hosted on the streamlit community cloud @ https://ratemyresume.strea
 - `google-generativeai`: For generating feedback on the resume.
 - `PyMuPDF`: For reading PDF files.
 
-## Author
-
-Samarth Saraogi - A final year engineering student with a passion for building apps with AI/Computer Vision. 
-
-- [GitHub](https://github.com/samarth6341/)
-- [LinkedIn](https://www.linkedin.com/in/samarth-saraogi/)
+## Scope
+Working on making the results more data driven.
 
 ## License
-
 This project is open-source. Feel free to fork, modify, and use as you see fit.
 
