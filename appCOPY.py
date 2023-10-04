@@ -3,7 +3,7 @@ import google.generativeai as palm
 import fitz  # PyMuPDF library
 import re
 
-palm.configure(api_key="AIzaSyCB4uoFy4QUTvsnEyL7R8pRje8wgdGZ8u8")
+palm.configure(api_key=st.secrets["api_key"])
 
 defaults = {
     'model': 'models/text-bison-001',
